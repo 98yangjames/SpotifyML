@@ -18,5 +18,3 @@ new = pd.DataFrame.from_dict(results)
 # new.to_csv('output.csv')
 df2 = pd.json_normalize(new['items'])
 df2.to_csv('output.csv')
-# print(df2.columns)
-# df2 = df2['']
